@@ -1,0 +1,227 @@
+﻿.home {
+    background-color: whitesmoke;
+    background-image: linear-gradient(180deg, whitesmoke, #6699ff);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+h1 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: lores-12, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+a {
+    -webkit-transition: color 2s;
+    transition: color 1.3s;
+    font-weight: bolder;
+}
+
+    a:hover {
+        color: #FAAC58;
+    }
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+    word-spacing: 3px;
+    font-family: dico-typewriter-slab,mono;
+    font-weight: 400;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+h3 {
+    position: absolute;
+    top: 60%;
+    left:22%;
+    transform: translate(-25%, -50%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center {
+    text-align: center;
+    word-spacing: 35px;
+    padding-top: 0.1em;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: dico-typewriter-slab,mono;
+    font-weight: 400;
+    font-style: normal;
+    margin:auto;
+    width:66%;
+    display:flex;
+    align-content:center;
+    right: 20px;
+}
+a:link {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+section {
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cinfo {
+    position: absolute;
+    left: 50%;
+    top: 380%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#clink {
+    font-family:sans-serif;
+    font-size: 22px;
+    position:absolute;
+    top: 405%;
+}
+
+#clink1 {
+    font-family: sans-serif;
+    font-size: 22px;
+    position: absolute;
+    top: 410%;
+}
+
+.projects {
+    background-color: #F0F8FF;
+    background-repeat: no-repeat;
+    width: auto;
+    margin: auto;
+    display:table;
+    align-content:center;
+    text-decoration: none;
+}
+
+.contact {
+    background-color: #F0F8FF;
+}
+
+.languages {
+    background-image: linear-gradient(0deg, whitesmoke, #6699ff);
+}
+
+#tlang {
+    text-align:center;
+    top: 0px;
+    bottom: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+}
+
+header {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    background-color: #B9D9EB;
+    z-index: 999;
+}
+
+#me {
+    border-radius: 25%;
+    width: 350px;
+    margin-left: 750px;
+    margin-bottom: 80px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imagetextwidth {
+    width: 100%;
+    font-size:14px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row {
+    display:flex;
+}
+
+.projimg {
+    height: 310px;
+    width: 480px;
+    margin-right: 134px;
+    margin-left: 134px;
+    margin-top: 2px;
+    border-right:15px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+    .projimg:hover {
+        -webkit-transform: scale(1.5);
+        transform:scale(1.5);
+
+    }
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    display:table;
+}
+
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+    .icon-bar a:hover {
+        background-color: #000;
+    }
+
+.iconlanguage {
+    padding-left: 65px;
+    padding-right: 40px;
+}
+
+tr {
+    height: 260px;
+}
+
+.active {
+    background-color: #33cccc;
+}
+
+
+
